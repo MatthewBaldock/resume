@@ -1,17 +1,26 @@
 <html>
-<header>
+<head>
+
+<link href="bootstrap-theme.css" rel="stylesheet">
+<link href="bootstrap-theme.min.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
+<link href="bootstrap.min.css" rel="stylesheet">
 <title>
-Matt chat
+Matt Chat
 </title>
-</header>
+</head>
 <body>
-<h1> 
-Welcome to MattChat.com, the site that features all the random shit I say that people find incredibly quotable and hilarious.
-</h1>
-<div id="chats" >
-Click to get chat.
-</div>
-<input type="button" onclick="generateChat()" value="generate"/>
+		<div class="container">
+		  <div class="jumbotron">
+		 
+            <h3>Welcome to Matt Chat, the site that features all the random shit I say that people find incredibly quotable and hilarious.</h3>
+            <h2 id="chats" style="color:grey;">Get the chats</h2>
+            <p class="lead">
+              <a onclick="generateChat()" class="btn btn-lg btn-default" role="button" style="color:white;">Generate</a>
+            </p>
+		
+          </div>
+		  </div>
 <script>
 var thespew = ["Everything is mucus and phlegm",
 "Thats not chocolate milk",
@@ -29,5 +38,8 @@ function generateChat()
 	document.getElementById('chats').innerHTML = thespew[chatIndex];
 }
 </script>
+ <script src="jquery-1.11.1.min.js"></script>
+ <script src="bootstrap.js"></script>
+ <script src="bootstrap.min.js"></script>
 </body>
 </html>
