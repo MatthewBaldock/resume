@@ -1,10 +1,10 @@
 <html>
 <head>
 
-<link href="bootstrap-theme.css" rel="stylesheet">
-<link href="bootstrap-theme.min.css" rel="stylesheet">
-<link href="bootstrap.css" rel="stylesheet">
-<link href="bootstrap.min.css" rel="stylesheet">
+<link href="/bootstrap-theme.css" rel="stylesheet">
+<link href="/bootstrap-theme.min.css" rel="stylesheet">
+<link href="/bootstrap.css" rel="stylesheet">
+<link href="/bootstrap.min.css" rel="stylesheet">
 <title>
 Matt Chat
 </title>
