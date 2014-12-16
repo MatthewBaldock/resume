@@ -38,8 +38,8 @@ function generateChat()
 	document.getElementById('chats').innerHTML = thespew[chatIndex];
 }
 </script>
- <script src="jquery-1.11.1.min.js"></script>
- <script src="bootstrap.js"></script>
- <script src="bootstrap.min.js"></script>
+ <script src="/jquery-1.11.1.min.js"></script>
+ <script src="/bootstrap.js"></script>
+ <script src="/bootstrap.min.js"></script>
 </body>
 </html>
