@@ -16,14 +16,15 @@ Matthew Baldock
             <h3>Welcome to MatthewBaldock.com, my own personal website. Follow the links below to see my projects or check out my LinkedIn page to see my credentials.</h3>
 			  <h3>
 			  Projects:<br>
-			<a href="http://www.mymediamemory.com" target="_blank"> My Media Memory </a><br>
-			<a href="http://www.yaketyup.com" target="_blank"> Yaketyup </a>
+			<a href="http://www.mymediamemory.com"> My Media Memory </a><br>
+			<a href="http://www.yaketyup.com"> Yaketyup </a>
 			<br>
 			<br>
 			Profile:
-			<a href="https://www.linkedin.com/in/matthewbaldock" target="_blank">LinkedIn</a>
+			<a href="https://www.linkedin.com/in/matthewbaldock">LinkedIn</a>
 			</h3>
-		
+			<h4>Resume:<br></h4>
+		<embed height="1056" width="816"src="MatthewBaldockResume.pdf">
           </div>
 		  </div>
  <script src="jquery-1.11.1.min.js"></script>
