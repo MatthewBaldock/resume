@@ -17,7 +17,7 @@ Matthew Baldock
 			  <h3>
 			  Projects:<br>
 			<a href="http://www.mymediamemory.com" target="_blank"> My Media Memory </a><br>
-			<a href="http://www.yaketyup.com" target="_blank"> Yaketyup </a>
+			<a href="http://www.yaketyup.com" target="_blank"> Yaketyup </a><br>
 			<a href="http://interactivephysicssimulator.matthewbaldock.com/" target="_blank"> Interactive Physics Simulator</a>
 			<br>
 			<br>
