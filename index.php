@@ -34,6 +34,18 @@ Matthew Baldock
 			<div id="content"> 
 			- Post-Secondary graduate looking for Part-Time, Full-Time, or Contract employment.
 			</div>
+<h4>Skills & Abilities</h4> 
+			<div id="content"> 
+			-	Coding Languages: C, C++, C#, Java, CSS, HTML, JavaScript, PHP, XML, MySQL.<br>
+-	IDEs: Visual Studio, Eclipse, NetBeans, Notepad++.<br>
+-	Experience with: CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC<br>
+-	Problem Solver, persists when faced with a difficult task.<br>
+-	Ethical, would never do anything unfair or harmful to the company, customer or environment.<br>
+-	Analytical.<br>
+-	Team Player.<br>
+-	Bilingual, speak and write English and French fluently.
+
+			</div><br>
 			<h4>Education</h4> 
 			<div id="content"> 
 			<div id="contentheader">British Columbia Institute of Technology (Sept 2011 – Dec 2014)</div>
