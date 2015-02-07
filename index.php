@@ -24,7 +24,7 @@ Matthew Baldock
 		<div class="container">
 		  <div class="jumbotron">
 		 
-            <h3>Welcome to MatthewBaldock.com, my own personal website. Follow the links below to see my projects or check out my <a href="https://www.linkedin.com/in/matthewbaldock" target="_blank">LinkedIn</a> page to see my credentials or my resume at the bottom.</h3>
+            <h3>Welcome to MatthewBaldock.com. Follow the links below to see my projects or check out my <a href="https://www.linkedin.com/in/matthewbaldock" target="_blank">LinkedIn</a> page to see my credentials or my resume at the bottom.</h3>
 			<h2>Matthew Baldock</h2>
 			<h4>Pitt Meadows, BC<br>
 				(604) 446 – 4223(Mobile)<br>
