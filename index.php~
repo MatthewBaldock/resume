@@ -26,14 +26,28 @@ Matthew Baldock
 		 
             <h3>Welcome to MatthewBaldock.com. Follow the links below to see my projects or check out my <a href="https://www.linkedin.com/in/matthewbaldock" target="_blank">LinkedIn</a> page to see my credentials or my resume at the bottom.</h3>
 			<h2>Matthew Baldock</h2>
-			<h4>Pitt Meadows, BC<br>
-				(604) 446 – 4223(Mobile)<br>
-				Matt.w.g.baldock@gmail.com
+			<h4><ul>
+			<li>Pitt Meadows, BC</li>
+				<li>(604) 446 – 4223(Mobile)</li>
+				<li>Matt.w.g.baldock@gmail.com</li>
+</ul>
 			</h4>
 			<h4>Career Objective</h4> 
 			<div id="content"> 
 			- Post-Secondary graduate looking for Part-Time, Full-Time, or Contract employment.
 			</div>
+<h4>Skills & Abilities</h4> 
+			<div id="content"> 
+			-	Coding Languages: C, C++, C#, Java, CSS, HTML, JavaScript, PHP, XML, MySQL.<br>
+-	IDEs: Visual Studio, Eclipse, NetBeans, Notepad++.<br>
+-	Experience with: CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC<br>
+-	Problem Solver, persists when faced with a difficult task.<br>
+-	Ethical, would never do anything unfair or harmful to the company, customer or environment.<br>
+-	Analytical.<br>
+-	Team Player.<br>
+-	Bilingual, speak and write English and French fluently.
+
+			</div><br>
 			<h4>Education</h4> 
 			<div id="content"> 
 			<div id="contentheader">British Columbia Institute of Technology (Sept 2011 – Dec 2014)</div>
