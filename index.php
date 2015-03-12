@@ -24,7 +24,7 @@ Matthew Baldock
 				<dt><h5>Matthew Baldock</h5></dt>
 				
 					<dd>Pitt Meadows, BC</dd>
-					<dd>(604) 446 – 4223(Mobile)</dd>
+					<dd>(604) 446 - 4223(Mobile)</dd>
 					<dd>Matt.w.g.baldock@gmail.com</dd>
 				
 				
@@ -47,12 +47,12 @@ Matthew Baldock
 			
 			<dt><h6>Education</h6></dt> 
 			<br>
-			 <dt>British Columbia Institute of Technology (Sept 2011 – Dec 2014)</dt>
+			 <dt>British Columbia Institute of Technology (Sept 2011 - Dec 2014)</dt>
 				<dd>- Completed CST Program, Achieved Diploma in Computer Systems Technology with a focus in Technical Programming.</dd>
 			<br>
 			<dt><h6>Work Experience</h6></dt> 
 			 <br>
-			<dt>COMP 4952/4956 Term Project (Sept 2014 – Dec 2014) Burnaby, British Columbia</dt>
+			<dt>COMP 4952/4956 Term Project (Sept 2014 - Dec 2014) Burnaby, British Columbia</dt>
 			<dt>Game Developer (BCIT Option Courses)</dt>
 				<dd> - Developed a multiplayer online video game using XNA Framework. Personal contribution included game logic, game assets (graphics and sound) and coding UI logic.</dd>
 				<dd> - Used Visual Studio, C# and GitHub as programming and versioning tools. </dd>
@@ -61,8 +61,8 @@ Matthew Baldock
 				<dd> - Provided monthly reports of our progress to our instructor.</dd>
 				<dd> - Gave a presentation about the whole project at the end of the term in front of other instructors and the President of BCIT</dd>
 				<br>
-			<dt>COMP 4952 Term Project (Sept 2014 – Dec 2014) Burnaby, British Columbia</dt>
-			<dt> Web Application (<a href="http://interactivephysicssimulator.matthewbaldock.com/" target="_blank"> Interactive Physics Simulator </a>)</dt>
+			<dt>COMP 4952 Term Project (Sept 2014 - Dec 2014) Burnaby, British Columbia</dt>
+			<dt> Web Application (Interactive Physics Simulator)</dt>
 				<dd> - Developed a ASP.NET Web application.</dd>
 				<dd> - Used Visual Studio, C# and GitHub as programming and versioning tools.</dd>
 				<dd> - Participated in a team of 2.</dd>
@@ -72,7 +72,7 @@ Matthew Baldock
 				<dd> - Provided monthly reports of our progress to our instructor.</dd>
 				<dd> - Gave a presentation about the whole project at the end of the term in front of our class.</dd>
 				<br>
-			<dt>COMP 4711 Term Project (Sept 2014 – Dec 2014) Burnaby, British Columbia</dt>
+			<dt>COMP 4711 Term Project (Sept 2014 - Dec 2014) Burnaby, British Columbia</dt>
 			<dt>Whistler Tourist Site (Intro to Web Development Course)</dt>
 				<dd> - Created a web application using CodeIgniter as a tourist website for Whistler BC</dd>
 				<dd> - Uses PHP, CodeIgniter, XML, Bootstrap.</dd>
@@ -82,7 +82,7 @@ Matthew Baldock
 				<dd> - Admin page where tourist locations can be added.</dd>
 				<dd> - Some content is loaded in from XML text in the database.</dd>
 				<br>
-			<dt> Project Practicum 1 3900(Jan 2014 – April 2014) Burnaby, British Columbia</dt>
+			<dt> Project Practicum 1 3900(Jan 2014 - April 2014) Burnaby, British Columbia</dt>
 			<dt>Project 1 (<a href="http://www.mymediamemory.com" target="_blank"> My Media Memory </a>)</dt>
 				<dd> - Website to keep track of media consumption.</dd>
 				<dd> - Uses PHP, Javascript, Ajax, API’s from third party Applications.</dd>
@@ -104,7 +104,7 @@ Matthew Baldock
 				<dd> - Gave Presentation at the end of the course to client, project manager and instructors of the course.</dd>
 				<br>
 
-			<dt>COMP 3952 Term Project (Jan 2014 – April 2014) Burnaby, British Columbia</dt>
+			<dt>COMP 3952 Term Project (Jan 2014 - April 2014) Burnaby, British Columbia</dt>
 			<dt>Visual Studio C# Software Application (Budget Scheduler)</dt>
 				<dd> - Budget Scheduler is an application used for keeping track of expenses day to day and month to month.</dd>
 				<dd> - Custom made calendar application to enter in expenses per day.</dd>
