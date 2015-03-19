@@ -50,7 +50,15 @@ Matthew Baldock
 			 <dt>British Columbia Institute of Technology (Sept 2011 - Dec 2014)</dt>
 				<dd>- Completed CST Program, Achieved Diploma in Computer Systems Technology with a focus in Technical Programming.</dd>
 			<br>
-			<dt><h6>Work Experience</h6></dt> 
+			<dt><h6>Work Experience</h6></dt>
+ 			<br>
+			<dt><a href="http://matthewbaldock.com/AGENA">AGENA (Asset Generator Application)</a></dt>
+			<dt>Lead Developer</dt>
+				<dd> - Creating an application for generating icon assets for mobile applications.</dd>
+				<dd> - Primarily written in Javascript, with HTML and Bootstrap for styling. </dd>
+				<dd> - Takes uploaded images and converts them to proper sizes for mobile applications</dd>
+				<dd> - Created files will be added to a downloadable zip</dd>
+				
 			 <br>
 			<dt>COMP 4952/4956 Term Project (Sept 2014 - Dec 2014) Burnaby, British Columbia</dt>
 			<dt>Game Developer (BCIT Option Courses)</dt>
