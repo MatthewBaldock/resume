@@ -33,10 +33,12 @@ Soon to come: Download as zip, IOS Assets.
 <div class="col-lg-8">
 <div class="well bs-component">
 <form class="form-horizontal"> 
-<div > 
-		<img id="myImg" src="TESTImage.png" alt="your image" />
-		<input type='file' accept='image/png,image/gif,image/jpg'onchange="imageLoaded(this)"/>
-		 <button type="button" class="btn btn-warning" onclick="copySquare()">Create Assets</button>
+		<div> 
+			<img id="myImg" src="TESTImage.png" alt="your image" />
+			<input type='file' accept='image/png,image/gif,image/jpg'onchange="imageLoaded(this)"/>
+			<button type="button" class="btn btn-warning" onclick="copySquare()">Create Assets</button>
+			<input type="range" name="amountRange" min="0" max="100" value="0" oninput="this.form.amountInput.value=this.value" onchange="changeBorder(this.value);"/>
+    <input type="number" name="amountInput" min="0" max="100" value="0" oninput="this.form.amountRange.value=this.value" />                                                       
 		 </div>
 		<div >
 		<h3> Android Assets </h3>
@@ -193,6 +195,17 @@ Soon to come: Download as zip, IOS Assets.
 		 </div>
 
  <script>
+	function changeBorder(radius)
+	{
+		var canvases = document.getElementsByTagName("canvas");
+		
+		for(var i = 0; i < canvases.length; i++)
+		{
+			canvases[i].style.borderRadius = radius+"px";
+		}
+		
+		
+	}
  	function downloadStuff()
 	{
 	var zip = new JSZip();
