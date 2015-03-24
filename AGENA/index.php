@@ -264,7 +264,7 @@ Soon to come: Download as zip, IOS Assets.
  <script src="bootstrap.min.js"></script>
  <script src="jszip.min.js"></script>
  <footer id="footer" class="col-lg-12">
- <div class="col-lg-5"></div>AGENA Copyright © 2015 <a href="matt.w.g.baldock@gmail.com">Matthew Baldock.</a> All rights reserved
+ <div class="col-lg-5"></div>AGENA Copyright &copy; 2015 <a href="matt.w.g.baldock@gmail.com">Matthew Baldock.</a> All rights reserved
  </footer>
  </body>
  
