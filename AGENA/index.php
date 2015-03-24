@@ -31,7 +31,7 @@ Soon to come: Download as zip, IOS Assets.
 
 </div>
 
-<div class="col-lg-8" style="margin: 10px; background-color:#f5f5f5">
+<div class="well col-lg-8">
 
 <form class="form-horizontal" > 
 		<div> 

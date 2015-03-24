@@ -30,17 +30,28 @@ Soon to come: Download as zip, IOS Assets.
 </form>
 
 </div>
-<div class="col-lg-8">
-<div class="well bs-component">
-<form class="form-horizontal"> 
+
+<div class="col-lg-8" style="margin: 10px; background-color:#f5f5f5">
+
+<form class="form-horizontal" > 
 		<div> 
 			<img id="myImg" src="TESTImage.png" alt="your image" />
 			<input type='file' accept='image/png,image/gif,image/jpg'onchange="imageLoaded(this)"/>
 			<button type="button" class="btn btn-warning" onclick="copySquare()">Create Assets</button>
+			</div>
+			<br>
+			<div class="col-lg-6">
+			
+			<h4>Change Border Radius</h4>
 			<input type="range" name="amountRange" min="0" max="100" value="0" oninput="this.form.amountInput.value=this.value" onchange="changeBorder(this.value);"/>
-    <input type="number" name="amountInput" min="0" max="100" value="0" oninput="this.form.amountRange.value=this.value" />                                                       
-		 </div>
-		<div >
+    <input type="number" name="amountInput" min="0" max="100" value="0" oninput="this.form.amountRange.value=this.value" />
+			
+			</div>
+			
+		 <br>
+		 
+		<div class="col-lg-12">
+		<hr>
 		<h3> Android Assets </h3>
 		<canvas id="mdpi" width="48" height="48" style="border:1px solid #d3d3d3";>
 		 
@@ -58,9 +69,13 @@ Soon to come: Download as zip, IOS Assets.
 		  <canvas id="xxxhdpi" width="192" height="192" style="border:1px solid #d3d3d3";>
 		 
 		 </canvas>
+		 
 		 </div>
+		 
+		 
+		 <div class="col-lg-12">
+		 <hr>
 		 <h3> iOS Assets </h3>
-		 <div>
 		  <table class="table table-striped table-hover ">
   <thead>
     <tr class="active">
@@ -191,7 +206,7 @@ Soon to come: Download as zip, IOS Assets.
 </table> 
 		 </div>
 		 </form>
-		 </div>
+		 
 		 </div>
 
  <script>
