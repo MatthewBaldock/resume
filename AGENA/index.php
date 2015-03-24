@@ -112,7 +112,7 @@ Soon to come: Download as zip, IOS Assets.
       <td><canvas id="i6pthree" width="87" height="87" style="border:1px solid #d3d3d3";>
 		 
 		 </canvas></td>
-      <td><canvas id="i65trhee" width="58" height="58" style="border:1px solid #d3d3d3";>
+      <td><canvas id="i65three" width="58" height="58" style="border:1px solid #d3d3d3";>
 		 
 		 </canvas></td>
       <td><canvas id="i4sthree" width="58" height="58" style="border:1px solid #d3d3d3";>
@@ -250,7 +250,7 @@ Soon to come: Download as zip, IOS Assets.
 	var iPadfour = document.getElementById("iPadfour");
     var iPadfourtx = iPadfour.getContext("2d");
 	var iPad2four = document.getElementById("iPad2four");
-    var iPad2fivetx = iPad2five.getContext("2d");
+    var iPad2fourtx = iPad2four.getContext("2d");
 	var i6pfive = document.getElementById("i6pfive");
     var i6pfivetx = i6pfive.getContext("2d");
 	var i65five = document.getElementById("i65five");
@@ -280,6 +280,7 @@ Soon to come: Download as zip, IOS Assets.
 		iPadtwotx.drawImage(img, 0,0, 50,50);
 		iPad2twotx.drawImage(img, 0,0, 25,25);
 		i6pthreetx.drawImage(img, 0,0, 87,87);
+		img = document.getElementById("myImg");
 		i65threetx.drawImage(img, 0,0, 58,58);
 		i4sthreetx.drawImage(img, 0,0, 58,58);
 		iPadthreetx.drawImage(img, 0,0, 58,58);
@@ -294,6 +295,7 @@ Soon to come: Download as zip, IOS Assets.
 		i4sfivetx.drawImage(img, 0,0, 120,120);
 		iPadfivetx.drawImage(img, 0,0, 152,152);
 		iPad2fivetx.drawImage(img, 0,0, 76,76);
+		
 	}
 	function imageLoaded(input) {
    
