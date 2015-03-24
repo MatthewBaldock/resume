@@ -274,26 +274,26 @@ Soon to come: Download as zip, IOS Assets.
 		i4sonetx.drawImage(img, 0,0, 44,44);
 		iPadonetx.drawImage(img, 0,0, 44,44);
 		iPad2onetx.drawImage(img, 0,0, 22,22);
-		i6ptwotx.drawImage(img, 0,0, 66,66);
-		i65twotx.drawImage(img, 0,0, 44,44);
-		i4stwotx.drawImage(img, 0,0, 44,44);
-		iPadtwotx.drawImage(img, 0,0, 44,44);
-		iPad2twotx.drawImage(img, 0,0, 22,22);
-		i6pthreetx.drawImage(img, 0,0, 66,66);
-		i65threetx.drawImage(img, 0,0, 44,44);
-		i4sthreetx.drawImage(img, 0,0, 44,44);
-		iPadthreetx.drawImage(img, 0,0, 44,44);
-		iPad2threetx.drawImage(img, 0,0, 22,22);
-		i6pfourtx.drawImage(img, 0,0, 66,66);
-		i65fourtx.drawImage(img, 0,0, 44,44);
-		i4sfourtx.drawImage(img, 0,0, 44,44);
-		iPadfourtx.drawImage(img, 0,0, 44,44);
-		iPad2fourtx.drawImage(img, 0,0, 22,22);
-		i6pfivetx.drawImage(img, 0,0, 66,66);
-		i65fivetx.drawImage(img, 0,0, 44,44);
-		i4sfivetx.drawImage(img, 0,0, 44,44);
-		iPadfivetx.drawImage(img, 0,0, 44,44);
-		iPad2fivetx.drawImage(img, 0,0, 22,22);
+		i6ptwotx.drawImage(img, 0,0, 75,75);
+		i65twotx.drawImage(img, 0,0, 50,50);
+		i4stwotx.drawImage(img, 0,0, 50,50);
+		iPadtwotx.drawImage(img, 0,0, 50,50);
+		iPad2twotx.drawImage(img, 0,0, 25,25);
+		i6pthreetx.drawImage(img, 0,0, 87,87);
+		i65threetx.drawImage(img, 0,0, 58,58);
+		i4sthreetx.drawImage(img, 0,0, 58,58);
+		iPadthreetx.drawImage(img, 0,0, 58,58);
+		iPad2threetx.drawImage(img, 0,0, 29,29);
+		i6pfourtx.drawImage(img, 0,0, 120,120);
+		i65fourtx.drawImage(img, 0,0, 80,80);
+		i4sfourtx.drawImage(img, 0,0, 80,80);
+		iPadfourtx.drawImage(img, 0,0, 80,80);
+		iPad2fourtx.drawImage(img, 0,0, 40,40);
+		i6pfivetx.drawImage(img, 0,0, 180,180);
+		i65fivetx.drawImage(img, 0,0, 120,120);
+		i4sfivetx.drawImage(img, 0,0, 120,120);
+		iPadfivetx.drawImage(img, 0,0, 152,152);
+		iPad2fivetx.drawImage(img, 0,0, 76,76);
 	}
 	function imageLoaded(input) {
    
