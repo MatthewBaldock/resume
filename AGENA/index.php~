@@ -8,7 +8,7 @@
 AGENA
 </title>
 </head>
-<body onload="copySquare()"> 
+<body> 
 <div class="col-lg-3">
 <small>(super cool name)</small>
 <p class="lead">
@@ -34,8 +34,8 @@ Soon to come: Download as zip, IOS Assets.
 <div class="well bs-component">
 <form class="form-horizontal"> 
 <div > 
-		<img id="myImg" src="TESTImage.png" alt="your image" />
-		<input type='file' accept='image/png,image/gif,image/jpg'onchange="imageLoaded(this)"/>
+		<img id="myImg" src="#" alt="your image" />
+		<input type='file' accept='image/png,image/gif'onchange="imageLoaded(this)"/>
 		 <button type="button" class="btn btn-warning" onclick="copySquare()">Create Assets</button>
 		 </div>
 		<div >
