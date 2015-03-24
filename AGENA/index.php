@@ -61,7 +61,7 @@ Soon to come: Download as zip, IOS Assets.
 		 <div>
 		  <table class="table table-striped table-hover ">
   <thead>
-    <tr>
+    <tr class="active">
 	  <th>Icon type</th>
       <th>iPhone 6 Plus</th>
       <th>iPhone 6/5</th>
@@ -71,7 +71,7 @@ Soon to come: Download as zip, IOS Assets.
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="active">
 	<td>Toolbar/Navigation</td>
       <td><canvas id="i6pone" width="66" height="66" style="border:1px solid #d3d3d3";>
 		 
@@ -89,7 +89,7 @@ Soon to come: Download as zip, IOS Assets.
 		 
 		 </canvas></td>
     </tr>
-    <tr>
+    <tr class="active">
 	<td>Tab bar</td>
       <td><canvas id="i6ptwo" width="75" height="75" style="border:1px solid #d3d3d3";>
 		 
@@ -107,7 +107,7 @@ Soon to come: Download as zip, IOS Assets.
 		 
 		 </canvas></td>
     </tr>
-    <tr>
+    <tr class="active">
 	<td>Settings</td>
       <td><canvas id="i6pthree" width="87" height="87" style="border:1px solid #d3d3d3";>
 		 
@@ -125,7 +125,7 @@ Soon to come: Download as zip, IOS Assets.
 		 
 		 </canvas></td>
     </tr>
-    <tr>
+    <tr class="active">
 	<td>Spotlight Search</td>
       <td><canvas id="i6pfour" width="120" height="120" style="border:1px solid #d3d3d3";>
 		 
@@ -143,7 +143,7 @@ Soon to come: Download as zip, IOS Assets.
 		 
 		 </canvas></td>
     </tr>
-    <tr>
+    <tr class="active">
 	<td>App Icon</td>
       <td><canvas id="i6pfive" width="180" height="180" style="border:1px solid #d3d3d3";>
 		 
@@ -161,7 +161,7 @@ Soon to come: Download as zip, IOS Assets.
 		 
 		 </canvas></td>
     </tr>
-    <tr>
+    <tr class="active">
 	<td>Web Clip</td>
 	  <td>Coming soon...</td>
       <td>Coming soon...</td>
@@ -169,7 +169,7 @@ Soon to come: Download as zip, IOS Assets.
       <td>Coming soon...</td>
       <td>Coming soon...</td>
     </tr>
-	 <tr>
+	 <tr class="active">
 	 <td>App Store icon</td>
       <td>Coming soon...</td>
       <td>Coming soon...</td>
@@ -177,7 +177,7 @@ Soon to come: Download as zip, IOS Assets.
       <td>Coming soon...</td>
       <td>Coming soon...</td>
     </tr>
-    <tr>
+    <tr class="active">
 	<td>Launch file</td>
       <td>Coming soon...</td>
       <td>Coming soon...</td>
