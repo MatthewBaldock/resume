@@ -221,6 +221,46 @@ Soon to come: Download as zip, IOS Assets.
     var iPadonetx = iPadone.getContext("2d");
 	var iPad2one = document.getElementById("iPad2one");
     var iPad2onetx = iPad2one.getContext("2d");
+	var i6ptwo = document.getElementById("i6ptwo");
+    var i6ptwotx = i6ptwo.getContext("2d");
+	var i65two = document.getElementById("i65two");
+    var i65twotx = i65two.getContext("2d");
+	var i4stwo = document.getElementById("i4stwo");
+    var i4stwotx = i4stwo.getContext("2d");
+	var iPadtwo = document.getElementById("iPadtwo");
+    var iPadtwotx = iPadtwo.getContext("2d");
+	var iPad2two = document.getElementById("iPad2two");
+    var iPad2twotx = iPad2two.getContext("2d");
+	var i6pthree = document.getElementById("i6pthree");
+    var i6pthreetx = i6pthree.getContext("2d");
+	var i65three = document.getElementById("i65three");
+    var i65threetx = i65three.getContext("2d");
+	var i4sthree = document.getElementById("i4sthree");
+    var i4sthreetx = i4sthree.getContext("2d");
+	var iPadthree = document.getElementById("iPadthree");
+    var iPadthreetx = iPadthree.getContext("2d");
+	var iPad2three = document.getElementById("iPad2three");
+    var iPad2threetx = iPad2three.getContext("2d");
+	var i6pfour = document.getElementById("i6pfour");
+    var i6pfourtx = i6pfour.getContext("2d");
+	var i65four = document.getElementById("i65four");
+    var i65fourtx = i65four.getContext("2d");
+	var i4sfour = document.getElementById("i4sfour");
+    var i4sfourtx = i4sfour.getContext("2d");
+	var iPadfour = document.getElementById("iPadfour");
+    var iPadfourtx = iPadfour.getContext("2d");
+	var iPad2four = document.getElementById("iPad2four");
+    var iPad2fivetx = iPad2five.getContext("2d");
+	var i6pfive = document.getElementById("i6pfive");
+    var i6pfivetx = i6pfive.getContext("2d");
+	var i65five = document.getElementById("i65five");
+    var i65fivetx = i65five.getContext("2d");
+	var i4sfive = document.getElementById("i4sfive");
+    var i4sfivetx = i4sfive.getContext("2d");
+	var iPadfive = document.getElementById("iPadfive");
+    var iPadfivetx = iPadfive.getContext("2d");
+	var iPad2five = document.getElementById("iPad2five");
+    var iPad2fivetx = iPad2five.getContext("2d");
    function copySquare()
 	{   
 		var img = document.getElementById("myImg");
@@ -234,6 +274,26 @@ Soon to come: Download as zip, IOS Assets.
 		i4sonetx.drawImage(img, 0,0, 44,44);
 		iPadonetx.drawImage(img, 0,0, 44,44);
 		iPad2onetx.drawImage(img, 0,0, 22,22);
+		i6ptwotx.drawImage(img, 0,0, 66,66);
+		i65twotx.drawImage(img, 0,0, 44,44);
+		i4stwotx.drawImage(img, 0,0, 44,44);
+		iPadtwotx.drawImage(img, 0,0, 44,44);
+		iPad2twotx.drawImage(img, 0,0, 22,22);
+		i6pthreetx.drawImage(img, 0,0, 66,66);
+		i65threetx.drawImage(img, 0,0, 44,44);
+		i4sthreetx.drawImage(img, 0,0, 44,44);
+		iPadthreetx.drawImage(img, 0,0, 44,44);
+		iPad2threetx.drawImage(img, 0,0, 22,22);
+		i6pfourtx.drawImage(img, 0,0, 66,66);
+		i65fourtx.drawImage(img, 0,0, 44,44);
+		i4sfourtx.drawImage(img, 0,0, 44,44);
+		iPadfourtx.drawImage(img, 0,0, 44,44);
+		iPad2fourtx.drawImage(img, 0,0, 22,22);
+		i6pfivetx.drawImage(img, 0,0, 66,66);
+		i65fivetx.drawImage(img, 0,0, 44,44);
+		i4sfivetx.drawImage(img, 0,0, 44,44);
+		iPadfivetx.drawImage(img, 0,0, 44,44);
+		iPad2fivetx.drawImage(img, 0,0, 22,22);
 	}
 	function imageLoaded(input) {
    
