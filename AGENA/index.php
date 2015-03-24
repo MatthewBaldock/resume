@@ -249,12 +249,22 @@ Soon to come: Download as zip, IOS Assets.
         }
     }
  </script>
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58312314-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
  <script src="jquery-1.11.1.min.js"></script>
  <script src="bootstrap.js"></script>
  <script src="bootstrap.min.js"></script>
  <script src="jszip.min.js"></script>
  <footer id="footer" class="col-lg-12">
- <div class="col-lg-5"></div>AGENA Copyright &copy; 2015 <a href="matt.w.g.baldock@gmail.com">Matthew Baldock.</a> All rights reserved
+ <div class="col-lg-5"></div>AGENA Copyright © 2015 <a href="matt.w.g.baldock@gmail.com">Matthew Baldock.</a> All rights reserved
  </footer>
  </body>
  
