@@ -52,6 +52,15 @@ Matthew Baldock
 			<br>
 			<dt><h6>Work Experience</h6></dt>
  			<br>
+			<dt><a href="http://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
+			<dt>Web Application Developer</dt>
+				<dd> - Web Application for the Active Engagement and Integration Project (AEIP) </dd>
+				<dd> - Uses the laravel PHP Framework, JQuery, Angular JS</dd>
+				<dd> - Intake sensitive applicant information, approve applicants and create user accounts.</dd>
+				<dd> - Multiple file uploading</dd>
+				<dd> - Dynamically created pages and content</dd>
+				
+			 <br>
 			<dt><a href="http://www.agenapp.com" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
 			<dt>Lead Developer</dt>
 				<dd> - Creating an application for generating icon assets for mobile applications.</dd>
