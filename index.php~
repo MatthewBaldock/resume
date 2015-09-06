@@ -37,7 +37,7 @@ Matthew Baldock
 			<dt><h6>Skills & Abilities</h6></dt>
 				<dd> - Coding Languages: C, C++, C#, Java, CSS, HTML, JavaScript, PHP, XML, MySQL.</dd>
 				<dd> - IDEs: Visual Studio, Eclipse, NetBeans, Notepad++, Android Studio, Titanium Studio.</dd>
-				<dd> - Experience with: CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC</dd>
+				<dd> - Experience with: Laravel, jQuery,CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC</dd>
 				<dd> - Problem Solver, persists when faced with a difficult task.</dd>
 				<dd> - Ethical, would never do anything unfair or harmful to the company, customer or environment.</dd>
 				<dd> - Analytical.</dd>
@@ -55,9 +55,13 @@ Matthew Baldock
 			<dt><a href="http://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
 			<dt>Web Application Developer</dt>
 				<dd> - Web Application for the Active Engagement and Integration Project (AEIP) </dd>
-				<dd> - Primarily written in Javascript, with HTML and Bootstrap for styling. </dd>
-				<dd> - Takes uploaded images and converts them to proper sizes for mobile applications</dd>
-				<dd> - Created files will be added to a downloadable zip</dd>
+				<dd> - Uses the laravel PHP Framework, JQuery, Angular JS</dd>
+				<dd> - Intake sensitive applicant information, approve applicants and create user accounts.</dd>
+				<dd> - Multiple file uploading</dd>
+				<dd> - Dynamically created pages and content</dd>
+				<dd> - Client side form validation</dd>
+				<dd> - Multilingual</dd>
+
 				
 			 <br>
 			<dt><a href="http://www.agenapp.com" target="_blank">AGENAPP (Asset Generator Application)</a></dt>

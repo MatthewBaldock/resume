@@ -37,7 +37,7 @@ Matthew Baldock
 			<dt><h6>Skills & Abilities</h6></dt>
 				<dd> - Coding Languages: C, C++, C#, Java, CSS, HTML, JavaScript, PHP, XML, MySQL.</dd>
 				<dd> - IDEs: Visual Studio, Eclipse, NetBeans, Notepad++, Android Studio, Titanium Studio.</dd>
-				<dd> - Experience with: CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC</dd>
+				<dd> - Experience with: Laravel, jQuery,CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC</dd>
 				<dd> - Problem Solver, persists when faced with a difficult task.</dd>
 				<dd> - Ethical, would never do anything unfair or harmful to the company, customer or environment.</dd>
 				<dd> - Analytical.</dd>
@@ -59,6 +59,9 @@ Matthew Baldock
 				<dd> - Intake sensitive applicant information, approve applicants and create user accounts.</dd>
 				<dd> - Multiple file uploading</dd>
 				<dd> - Dynamically created pages and content</dd>
+				<dd> - Client side form validation</dd>
+				<dd> - Multilingual web application</dd>
+
 				
 			 <br>
 			<dt><a href="http://www.agenapp.com" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
