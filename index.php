@@ -23,8 +23,7 @@ Matthew Baldock
 			<dl>
 				<dt><h5>Matthew Baldock</h5></dt>
 				
-					<dd>Pitt Meadows, BC</dd>
-					<dd>(604) 446 - 4223(Mobile)</dd>
+					<dd> Greater Vancouver, BC</dd>
 					<dd>Matt.w.g.baldock@gmail.com</dd>
 				
 				
