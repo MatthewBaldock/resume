@@ -30,7 +30,7 @@ Matthew Baldock
 				<br>
 				<dt><h6>Career Objective</h6></dt> 
 				<dd>
-				- Post-Secondary graduate looking for Part-Time, Full-Time, or Contract employment.
+				- Independant Contractor and recent BCIT Graduate, looking for Full-Time or Part-Time Contract Employment.
 				</dd>
 			<br>
 			<dt><h6>Skills & Abilities</h6></dt>
