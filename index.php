@@ -67,7 +67,7 @@ Matthew Baldock
 			<dt>Lead Developer</dt>
 				<dd> - Web Application that takes shortened URLS and finds the real web page it leads to. </dd>
 				<dd> - Uses JQuery and PHP</dd>
-				<dd> - Useful for checking if a shortened URL is a scam or malicious webpage</dd>
+				<dd> - Useful for checking if a shortened URL is a scam or malicious web page</dd>
 
 				
 			 <br>

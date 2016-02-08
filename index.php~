@@ -63,6 +63,14 @@ Matthew Baldock
 
 				
 			 <br>
+<dt><a href="http://explodeurl.xyz" target="_blank">Explode URL</a></dt>
+			<dt>Lead Developer</dt>
+				<dd> - Web Application that takes shortened URLS and finds the real web page it leads to. </dd>
+				<dd> - Uses JQuery and PHP</dd>
+				<dd> - Useful for checking if a shortened URL is a scam or malicious webpage</dd>
+
+				
+			 <br>
 			<dt><a href="http://www.agenapp.com" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
 			<dt>Lead Developer</dt>
 				<dd> - Creating an application for generating icon assets for mobile applications.</dd>
