@@ -10,7 +10,7 @@ and open the template in the editor.
         <title>Explore URL</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
         
     </head>
     <body>
@@ -32,6 +32,6 @@ and open the template in the editor.
         </div>
     </body>
     <footer>
-        <script src ="http://php-mattchat.rhcloud.com/js/myScript.js" type="text/javascript"></script>
+        <script src ="https://php-mattchat.rhcloud.com/js/myScript.js" type="text/javascript"></script>
     </footer>
 </html>
