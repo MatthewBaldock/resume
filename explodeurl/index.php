@@ -32,6 +32,6 @@ and open the template in the editor.
         </div>
     </body>
     <footer>
-        <script src ="/js/myScript.js" type="text/javascript"></script>
+        <script src ="https://php-mattchat.rhcloud.com/js/myScript.js" type="text/javascript"></script>
     </footer>
 </html>
