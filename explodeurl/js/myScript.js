@@ -13,7 +13,7 @@ $("#subURL").on('click',function(){
     else
     {
          $("#urlERR").empty();
-        $.post('/explode/index.php',{shortURL:shortURL},function(data){
+        $.post('https://php-mattchat.rhcloud.com/explodeurl/explode/index.php',{shortURL:shortURL},function(data){
             $("#responseText").text(data); 
         });
     }
