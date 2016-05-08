@@ -51,7 +51,7 @@ Matthew Baldock
 			<br>
 			<dt><h6>Work Experience</h6></dt>
  			<br>
-			<dt><a href="http://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
+			<dt><a href="https://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
 			<dt>Web Application Developer</dt>
 				<dd> - Web Application for the Active Engagement and Integration Project (AEIP) </dd>
 				<dd> - Uses the laravel PHP Framework, JQuery, Angular JS</dd>
@@ -67,11 +67,11 @@ Matthew Baldock
 			<dt>Lead Developer</dt>
 				<dd> - Web Application that takes shortened URLS and finds the real web page it leads to. </dd>
 				<dd> - Uses JQuery and PHP</dd>
-				<dd> - Useful for checking if a shortened URL is a scam or malicious webpage</dd>
+				<dd> - Useful for checking if a shortened URL is a scam or malicious web page</dd>
 
 				
 			 <br>
-			<dt><a href="http://www.agenapp.com" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
+			<dt><a href="https://php-mattchat.rhcloud.com/agenapp" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
 			<dt>Lead Developer</dt>
 				<dd> - Creating an application for generating icon assets for mobile applications.</dd>
 				<dd> - Primarily written in Javascript, with HTML and Bootstrap for styling. </dd>
@@ -110,7 +110,7 @@ Matthew Baldock
 				<dd> - Some content is loaded in from XML text in the database.</dd>
 				<br>
 			<dt> Project Practicum 1 3900(Jan 2014 - April 2014) Burnaby, British Columbia</dt>
-			<dt>Project 1 (<a href="http://www.mymediamemory.com" target="_blank"> My Media Memory </a>)</dt>
+			<dt>Project 1 (My Media Memory)</dt>
 				<dd> - Website to keep track of media consumption.</dd>
 				<dd> - Uses PHP, Javascript, Ajax, API’s from third party Applications.</dd>
 				<dd> - Personal contributions include, Friends System Logic, Friends Search, Friends Search Page Design, Profile Page Design, Notifications Logic and Notifications Box Design.</dd>

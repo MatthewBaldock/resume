@@ -51,7 +51,7 @@ Matthew Baldock
 			<br>
 			<dt><h6>Work Experience</h6></dt>
  			<br>
-			<dt><a href="http://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
+			<dt><a href="https://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
 			<dt>Web Application Developer</dt>
 				<dd> - Web Application for the Active Engagement and Integration Project (AEIP) </dd>
 				<dd> - Uses the laravel PHP Framework, JQuery, Angular JS</dd>
@@ -71,7 +71,7 @@ Matthew Baldock
 
 				
 			 <br>
-			<dt><a href="http://www.agenapp.com" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
+			<dt><a href="https://php-mattchat.rhcloud.com/agenapp" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
 			<dt>Lead Developer</dt>
 				<dd> - Creating an application for generating icon assets for mobile applications.</dd>
 				<dd> - Primarily written in Javascript, with HTML and Bootstrap for styling. </dd>
@@ -110,7 +110,7 @@ Matthew Baldock
 				<dd> - Some content is loaded in from XML text in the database.</dd>
 				<br>
 			<dt> Project Practicum 1 3900(Jan 2014 - April 2014) Burnaby, British Columbia</dt>
-			<dt>Project 1 (<a href="http://www.mymediamemory.com" target="_blank"> My Media Memory </a>)</dt>
+			<dt>Project 1 (My Media Memory)</dt>
 				<dd> - Website to keep track of media consumption.</dd>
 				<dd> - Uses PHP, Javascript, Ajax, API’s from third party Applications.</dd>
 				<dd> - Personal contributions include, Friends System Logic, Friends Search, Friends Search Page Design, Profile Page Design, Notifications Logic and Notifications Box Design.</dd>
@@ -121,7 +121,7 @@ Matthew Baldock
 				<br>
 				
 			<dt>Project Practicum 2 4900(May 2014) Burnaby, British Columbia</dt>
-			<dt>Project 2 (<a href="http://www.yaketyup.com" target="_blank"> Yaketyup </a>)</dt>
+			<dt>Project 2 ( Yaketyup )</dt>
 				<dd> - Website that surveys users on what kind of decisions they would make in certain situations</dd>
 				<dd> - Uses PHP, Javascript, Ajax, Bootstrap.</dd>
 				<dd> - Personal contributions include, Search Logic, Advanced Search Logic, Following Users Logic, Following Questions Logic.</dd>
