@@ -50,7 +50,7 @@ and open the template in the editor.
 </script>
     </body>
     <footer>
-        <script src ="https://matthewbaldock.000webhostapp.com/explodeurl/js/myScript.js" type="text/javascript"></script>
+        <script src ="https://matthewbaldock.github.io/resume/explodeurl/js/myScript.js" type="text/javascript"></script>
 
     </footer>
 </html>
