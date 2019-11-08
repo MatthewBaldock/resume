@@ -13,7 +13,7 @@ $("#subURL").on('click',function(){
     else
     {
          $("#urlERR").empty();
-        $.post('https://php-mattchat.rhcloud.com/explodeurl/explode/index.php',{shortURL:shortURL},function(data){
+        $.post('https://matthewbaldock.github.io/resume/explodeurl/explode/index.php',{shortURL:shortURL},function(data){
             $("#responseText").text(data); 
         });
     }
