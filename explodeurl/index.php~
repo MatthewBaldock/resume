@@ -11,7 +11,15 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
-        
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58312314-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-58312314-3');
+</script>
     </head>
     <body>
         <div class="container">
@@ -30,8 +38,19 @@ and open the template in the editor.
             
         </div>
         </div>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ExplodeAd -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1075230236221127"
+     data-ad-slot="3157226862"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </body>
     <footer>
-        <script src ="https://php-mattchat.rhcloud.com/js/myScript.js" type="text/javascript"></script>
+        <script src ="https://matthewbaldock.000webhostapp.com/explodeurl/js/myScript.js" type="text/javascript"></script>
+
     </footer>
 </html>

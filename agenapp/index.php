@@ -3,10 +3,20 @@
 
 <link href="/bootstrap-theme.css" rel="stylesheet">
 <link href="/bootstrap-theme.min.css" rel="stylesheet">
-<link href="/bootstrap.css" rel="stylesheet">
+<!--<link href="/bootstrap.css" rel="stylesheet">-->
 <title>
 AGENAPP
 </title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58312314-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-58312314-2');
+</script>
+
 </head>
 <body onload="copySquare()"> 
 <div class="col-lg-3">
@@ -370,16 +380,7 @@ Soon to come: Download as zip, IOS Assets.
         }
     }
  </script>
- <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58312314-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
  <script src="jquery-1.11.1.min.js"></script>
  <script src="bootstrap.js"></script>
  <script src="bootstrap.min.js"></script>

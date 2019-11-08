@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mobile Apps</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+        <h2>MB Co, App Development</h2>
+        <div>Hello visitors, welcome to MB Co's mobile app portfolio. Currently my apps are Android only but I am hoping to break into iOS soon.</div>
+&nbsp;
+        <div>Click the links to download, share and enjoy!</div>
+&nbsp;
+        <div>
+            <label for="PlayStore">Apps on Google Play
+            </label>
+	    <div id="PlayStore">
+		<a href="https://play.google.com/store/apps/details?id=com.matthewbaldock.skidaddle">
+			<img src="icons/skidaddle.png" height="128" width="128"/>
+		</a>
+
+		<a href="https://play.google.com/store/apps/details?id=com.matthewbaldock.gameboredhitthebutton">
+			<img src="icons/hit_the_button.png" height="128" width="128"/>
+		</a>
+
+		<a href="https://play.google.com/store/apps/details?id=com.matthewbaldock.flippypuck">
+			<img src="icons/flippy_puck.png" height="128" width="128"/>
+		</a>
+
+		<a href="https://play.google.com/store/apps/details?id=matthewbaldock.isitfridayyet">
+			<img src="icons/IsItFridayIcon.png" height="128" width="128"/>
+		</a>
+
+		<a href="https://play.google.com/store/apps/details?id=com.matthewbaldock.soundbored">
+			<img src="icons/IT.png" height="128" width="128"/>
+		</a>
+
+		<a href="https://play.google.com/store/apps/details?id=com.matthewbaldock.suprem">
+			<img src="icons/suprem.png" height="128" width="128"/>
+		</a>
+	     </div>
+            <label for="selfHost">Self Hosted Apps (Manual Install)
+            </label>
+	    <div id="selfHost">
+		<a target="_blank" href="download/socktrump.apk" download="socktrump.apk"> 
+	    <img src="icons/sock_trump.png" height="128" width="128"
+	    />
+		</a>
+	    </div>
+
+	
+        </div>
+
+	&nbsp;
+        <div>
+            Below is a link on how to install 3rd Party APK's.
+	<a target="_blank" href="https://www.cnet.com/how-to/how-to-install-apps-outside-of-google-play/">
+		https://www.cnet.com/how-to/how-to-install-apps-outside-of-google-play/ </a>
+        </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
+

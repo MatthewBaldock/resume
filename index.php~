@@ -30,11 +30,11 @@ Matthew Baldock
 				<br>
 				<dt><h6>Career Objective</h6></dt> 
 				<dd>
-				- Independant Contractor and recent BCIT Graduate, looking for Full-Time or Part-Time Contract Employment.
+				- Web and Software Developer looking for Full-Time or Part-Time Employment.
 				</dd>
 			<br>
 			<dt><h6>Skills & Abilities</h6></dt>
-				<dd> - Coding Languages: C, C++, C#, Java, CSS, HTML, JavaScript, PHP, XML, MySQL.</dd>
+				<dd> - C#, PHP, Javascript, SQL, Java,C, C++, Powerhouse, HTML, CSS.</dd>
 				<dd> - IDEs: Visual Studio, Eclipse, NetBeans, Notepad++, Android Studio, Titanium Studio.</dd>
 				<dd> - Experience with: Laravel, jQuery,CodeIgniter, ASP.NET, Entity Framework, SOAP, REST XMLRPC</dd>
 				<dd> - Problem Solver, persists when faced with a difficult task.</dd>
@@ -51,8 +51,21 @@ Matthew Baldock
 			<br>
 			<dt><h6>Work Experience</h6></dt>
  			<br>
+<dt><a href="https://stargarden.com" target="_blank">Stargarden</a></dt>
+			<dt>Application Development Specialist (Oct 2016 – Nov 2017)</dt>
+				<dd> - Stargarden is a custom payroll software solution </dd>
+				<dd> - Application Developer, Front-end and Back-end Functionality</dd>
+				<dd> - Server Setup, Database Setup, Support Work with clients</dd>
+				<dd> - Uses C#, jQuery, Powerhouse, CSS, HTML, ASP.NET</dd>
+				<dd> - Software keeps track of employees, payroll, benefits, deductions</dd>
+				<dd> - Base product is customized on a customer by customer basis</dd>
+				<dd> - Was responsible for upgrading a client, setting up their system and re-creating<br>
+the custom pages in the new version of the product from the old</dd>
+
+				
+			 <br>
 			<dt><a href="https://www.aeipsuccess.ca" target="_blank">AEIPSuccess.ca</a></dt>
-			<dt>Web Application Developer</dt>
+			<dt>Web Application Developer (May 2015 – Jun 2016)</dt>
 				<dd> - Web Application for the Active Engagement and Integration Project (AEIP) </dd>
 				<dd> - Uses the laravel PHP Framework, JQuery, Angular JS</dd>
 				<dd> - Intake sensitive applicant information, approve applicants and create user accounts.</dd>
@@ -71,7 +84,7 @@ Matthew Baldock
 
 				
 			 <br>
-			<dt><a href="https://php-mattchat.rhcloud.com/agenapp" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
+			<dt><a href="http://matthewbaldock.com/agenapp" target="_blank">AGENAPP (Asset Generator Application)</a></dt>
 			<dt>Lead Developer</dt>
 				<dd> - Creating an application for generating icon assets for mobile applications.</dd>
 				<dd> - Primarily written in Javascript, with HTML and Bootstrap for styling. </dd>
@@ -121,7 +134,7 @@ Matthew Baldock
 				<br>
 				
 			<dt>Project Practicum 2 4900(May 2014) Burnaby, British Columbia</dt>
-			<dt>Project 2 (<a href="http://www.yaketyup.com" target="_blank"> Yaketyup </a>)</dt>
+			<dt>Project 2 ( Yaketyup )</dt>
 				<dd> - Website that surveys users on what kind of decisions they would make in certain situations</dd>
 				<dd> - Uses PHP, Javascript, Ajax, Bootstrap.</dd>
 				<dd> - Personal contributions include, Search Logic, Advanced Search Logic, Following Users Logic, Following Questions Logic.</dd>
