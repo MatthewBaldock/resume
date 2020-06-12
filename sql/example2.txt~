@@ -1,0 +1,171 @@
+
+   SET ECHO ON
+    SPOOL C:\Users\Local\Documents\Database\example2.txt
+    --
+    --  COMP 2714
+    --  SET 2E
+    --  Assignment 1
+    -- Baldock, Matthew   
+    --
+    ALTER SESSION SET NLS_DATE_FORMAT='YYYY-MM-DD';
+    --
+    SELECT SYSDATE
+    FROM DUAL;
+    --
+    -- 1) Removing the 4 tables Plus OldBooking
+    --
+     
+    DROP TABLE OldBooking;
+    DROP TABLE Booking;
+    DROP TABLE Guest;
+    DROP TABLE Room;
+    DROP TABLE Hotel;
+    --
+    -- 2) Creating the Hotel and the Room tables
+    --
+    CREATE TABLE Hotel
+    (hotelNo    CHAR(8)        NOT NULL
+    ,hotelName  VARCHAR2(20)   NOT NULL
+    ,city       VARCHAR2(20)   NOT NULL
+    ,CONSTRAINT  PKHotelNo PRIMARY KEY (hotelNo)
+    );
+    CREATE TABLE Room
+    (roomNo   DECIMAL(2)     NOT NULL UNIQUE
+    ,hotelNo  CHAR(8)        NOT NULL
+    ,roomType VARCHAR2(8)    NOT NULL
+    ,price    DECIMAL(4, 2)  NOT NULL
+    ,CONSTRAINT PKRoomNo PRIMARY KEY (roomNo, hotelNo)
+    ,CONSTRAINT RoomFKHotelNo FOREIGN KEY (hotelNo) REFERENCES Hotel (hotelNo)
+    ,CONSTRAINT CHKPrice CHECK (price BETWEEN 10.00 AND 100.00)
+    ,CONSTRAINT CHKRoom CHECK (roomNo BETWEEN 1 AND 100)
+    ,CONSTRAINT CHKRoomType CHECK (roomType  IN('Single','Double','Family'))
+    );
+    --
+    -- 3) Creating the Guest and Booking tables
+    --
+    CREATE TABLE Guest
+    (guestNo      CHAR(8)        NOT NULL
+    ,guestName    VARCHAR2(20)   NOT NULL
+    ,guestAddress VARCHAR2(20)   NOT NULL
+    ,CONSTRAINT PKGuestNo PRIMARY KEY (guestNo)
+    );
+    CREATE TABLE Booking
+    (hotelNo   CHAR(8)     NOT NULL UNIQUE
+    ,guestNo   CHAR(8)     NOT NULL UNIQUE
+    ,dateFrom  DATE        NOT NULL UNIQUE
+    ,dateTo    DATE        NOT NULL UNIQUE
+    ,roomNo    DECIMAL(2)  NOT NULL UNIQUE
+    ,CONSTRAINT BookingPKHotelNo PRIMARY KEY (hotelNo, guestNo, dateFrom)
+    ,CONSTRAINT BookingFKHotelNo FOREIGN KEY (hotelNo) REFERENCES Hotel (hotelNo)
+    ,CONSTRAINT BookingFKRoomNo  FOREIGN KEY (roomNo)  REFERENCES Room (roomNo)
+    ,CONSTRAINT BookingFKGuestNo FOREIGN KEY (guestNo) REFERENCES Guest (guestNo)
+    );
+    --
+    -- 4) Inserting Rows of sample data
+    --
+    INSERT INTO Hotel
+      VALUES('H01','Pillow Talk', 'Vancouver');
+    INSERT INTO Hotel
+      VALUES('H02','The Shepard', 'Toronto');
+    INSERT INTO Hotel
+      VALUES('H03','Night Light', 'Victoria');
+    INSERT INTO Room
+      VALUES(23,'H01','Family',80.00);
+    INSERT INTO Room
+      VALUES(67,'H02','Single',50.00);
+    INSERT INTO Room
+      VALUES(33,'H03','Double',65.50);
+    INSERT INTO Guest
+      VALUES('G01','Gus Jiver','5089 Pendul St');
+    INSERT INTO Guest
+      VALUES('G02','Isabella Sparrow','784 Lemon Drive');
+    INSERT INTO Guest
+      VALUES('G03','Ferdinand Megusta','89 Herring Ave');
+    INSERT INTO Booking
+      VALUES('H01','G02', '2013-04-01', '2013-04-03', '23');
+    INSERT INTO Booking
+      VALUES('H03','G01', '2013-03-20', '2013-04-01', '33');
+    INSERT INTO Booking
+      VALUES('H02','G03', '2010-08-20', '2010-08-25', '67');
+    --
+    -- 5)
+    -- a.
+    --
+    ALTER TABLE Room
+      DROP CONSTRAINT CHKRoomType;
+    ALTER TABLE Room
+      ADD CONSTRAINT CHKRoomType CHECK(roomType  IN('Single','Double','Family','Deluxe'));
+    --  
+    -- b.
+    --
+    ALTER TABLE Room
+      ADD discount DECIMAL(2,0) DEFAULT 0 NOT NULL;
+     
+    ALTER TABLE Room
+      ADD CONSTRAINT CKDiscount CHECK(discount BETWEEN 0 AND 30);
+    --  
+    --6)
+    --a.
+    --
+    UPDATE Room
+      SET price = (price * 0.15 + price)
+      WHERE hotelNo = 'H03' AND roomType = 'Double';
+    --
+    --b.
+    --
+    UPDATE Booking
+      SET dateFrom = '2013-03-15', dateTo = '2013-04-05'
+      WHERE hotelNo = 'H03' AND guestNo = 'G01';
+    --
+    --7)
+    --a. Creating table OldBooking
+    --
+    CREATE TABLE OldBooking
+    (hotelNo   CHAR(8)     NOT NULL
+    ,guestNo   CHAR(8)     NOT NULL
+    ,dateFrom  DATE        NOT NULL
+    ,dateTo    DATE        NOT NULL
+    ,roomNo    DECIMAL(2)  NOT NULL
+    ,CONSTRAINT OldBookingPKHotelNo PRIMARY KEY (hotelNo, guestNo, dateFrom)
+    ,CONSTRAINT OldBookingFKHotelNo FOREIGN KEY (hotelNo) REFERENCES Hotel (hotelNo)
+    ,CONSTRAINT OldBookingFKRoomNo  FOREIGN KEY (roomNo)  REFERENCES Room (roomNo)
+    ,CONSTRAINT OldBookingFKGuestNo FOREIGN KEY (guestNo) REFERENCES Guest (guestNo)
+    );
+    --
+    --b.
+    --
+    INSERT INTO OldBooking
+      SELECT *
+      FROM Booking
+      WHERE dateTo IS NOT NULL
+      AND dateTo < TO_DATE('2012-01-01');
+    --
+    --c.
+    --
+    DELETE FROM Booking
+      WHERE dateTo IS NOT NULL
+      AND dateTo < TO_DATE('2012-01-01');
+    --  
+    -- Testing
+    --
+    SELECT *
+      FROM OldBooking;
+    --
+    --
+    SELECT *
+      FROM Booking;
+    --
+    --
+    SELECT *
+      FROM Guest;
+    --
+    --
+      SELECT *
+      FROM Hotel;
+    --
+    --
+      SELECT *
+      FROM Room;
+    --
+    -- The End
+    SPOOL OFF
