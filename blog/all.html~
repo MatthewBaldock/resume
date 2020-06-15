@@ -35,7 +35,7 @@ Matthew Baldock
 <script>
 	$("#post").load('post1.txt');
 $.getJSON("posts.json",function(json){
-console.log($(json)[0]);
+
     $.each(json,function(key,val){
     console.log("Key:" + key + " Value: " +val);
 });
