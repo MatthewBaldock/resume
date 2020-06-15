@@ -36,6 +36,16 @@ Matthew Baldock
  <script src="../bootstrap.min.js"></script>
 <script>
 	$("#post").load('post1.txt');
+ $.ajax({
+                url: "/blog/",
+                success: function(data) {
+                    $(data).find("a:contains(.txt)").each(function() {
+                        fileNames += $(this).attr("href");
+                    });
+			console.log(fileNames);
+                    return fileNames;
+                }
+            });
 </script>
 </body>
 </html>
