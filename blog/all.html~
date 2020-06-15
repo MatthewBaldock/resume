@@ -39,11 +39,12 @@ $.getJSON("posts.json",function(json){
 	if(key ==0)
 	{
 		$("#post").load($(val).date+'.txt');
-		$("#post").append("<hr> <p id=post"+key+"</p>");
+	 	var next = key+1;
+		$("#post").append("<hr> <p id=post"+next+"></p>");
 	}
 	else
 	{
-		$("#post"+key).load
+		$("#post"+key).load($(val).date+'.txt');
 	}
 });
 });
