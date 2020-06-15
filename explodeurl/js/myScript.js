@@ -13,7 +13,7 @@ $("#subURL").on('click',function(){
     else
     {
          $("#urlERR").empty();
-        $.post('https://matthewbaldock.github.io/resume/explodeurl/explode/index.php',{shortURL:shortURL},function(data){
+        $.post('http://explodeurl.xyz/explode/index.php',{shortURL:shortURL},function(data){
             $("#responseText").text(data); 
         });
     }

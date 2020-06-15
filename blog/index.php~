@@ -26,17 +26,16 @@ Matthew Baldock
 <h4> 
 </h4>
 	
-	<p><?php
-$myfile = fopen("post1.txt", "r") or die("Unable to open file!");
-echo fread($myfile,filesize("post1.txt"));
-fclose($myfile);
-?></p>		
-
+		
+		<p id=post></p>
 		</div>
     </div>
 		  
  <script src="../jquery-1.11.1.min.js"></script>
  <script src="../bootstrap.js"></script>
  <script src="../bootstrap.min.js"></script>
+<script>
+	
+</script>
 </body>
 </html>
