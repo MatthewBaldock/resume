@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<link href="../bootstrap-theme.css" rel="stylesheet">
+<link href="../bootstrap-theme.min.css" rel="stylesheet">
+<link href="../bootstrap.css" rel="stylesheet">
+<link href="../bootstrap.min.css" rel="stylesheet">
+<style>
+dt 
+{
+color:White;
+}
+</style>
+<title>
+Matthew Baldock
+</title>
+
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+		 
+            <h2><a href="/blog/">The Blog</a></h2>
+<br>
+<br>
+	
+		
+		<p id=post></p>
+		</div>
+    </div>
+		  
+ <script src="../jquery-1.11.1.min.js"></script>
+ <script src="../bootstrap.js"></script>
+ <script src="../bootstrap.min.js"></script>
+<script>
+	$("#post").load('post1.txt');
+
+</script>
+</body>
+</html>

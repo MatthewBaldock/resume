@@ -20,11 +20,9 @@ Matthew Baldock
 	<div class="container">
 		<div class="jumbotron">
 		 
-            <h3>The Blog</h3>
+            <h2><a href="/blog/">The Blog</a></h2> <p><a href="all.html"> All</a></p>
 <br>
 <br>
-<h4> 
-</h4>
 	
 		
 		<p id=post></p>
@@ -36,17 +34,7 @@ Matthew Baldock
  <script src="../bootstrap.min.js"></script>
 <script>
 	$("#post").load('post1.txt');
-var fukeBanes = "";
- $.ajax({
-                url: "/blog/",
-                success: function(data) {
-                    $(data).find("a:contains(.txt)").each(function() {
-                        fukeBanes += $(this).attr("href");
-                    });
-			console.log(fukeBanes);
-                    return fukeBanes;
-                }
-            });
+
 </script>
 </body>
 </html>
