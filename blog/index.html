@@ -33,7 +33,10 @@ Matthew Baldock
  <script src="../bootstrap.js"></script>
  <script src="../bootstrap.min.js"></script>
 <script>
-	$("#post").load('post1.txt');
+	
+$.getJSON("posts.json",function(json){
+$("#post").load($(json)[0].date+'.txt');
+});
 
 </script>
 </body>
