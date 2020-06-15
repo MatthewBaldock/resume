@@ -1,4 +1,4 @@
 Test
 
-nbsp;
+&nbsp;
 Hello World, this is my first blog post here
