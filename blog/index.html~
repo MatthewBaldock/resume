@@ -20,7 +20,7 @@ Matthew Baldock
 	<div class="container">
 		<div class="jumbotron">
 		 
-            <h3></h3>
+            <h3>The Blog</h3>
 <br>
 <br>
 <h4> 
@@ -35,7 +35,7 @@ Matthew Baldock
  <script src="../bootstrap.js"></script>
  <script src="../bootstrap.min.js"></script>
 <script>
-	$("#post").load("/post1.txt");
+	$("#post").load('post1.txt');
 </script>
 </body>
 </html>
