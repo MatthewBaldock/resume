@@ -35,7 +35,7 @@ Matthew Baldock
  <script src="../bootstrap.js"></script>
  <script src="../bootstrap.min.js"></script>
 <script>
-	$("post").load("post1.txt");
+	$("#post").load("/post1.txt");
 </script>
 </body>
 </html>
