@@ -38,13 +38,13 @@ $.getJSON("posts.json",function(json){
     $.each(json,function(key,val){
 	if(key ==0)
 	{
-		$("#post").load($(val).date+'.txt');
+		$("#post").load(val.date+'.txt');
 	 	var next = key+1;
 		$("#post").append("<hr> <p id=post"+next+"></p>");
 	}
 	else
 	{
-		$("#post"+key).load($(val).date+'.txt');
+		$("#post"+key).load(val.date+'.txt').append("<hr> <p id=post"+next+"></p>");
 	}
 });
 });
