@@ -35,7 +35,7 @@ Matthew Baldock
 <script>
 	
 $.getJSON("posts.json",function(json){
-$("#post").load($(json)[0]+'.txt');
+$("#post").load($(json)[0].date+'.txt');
 });
 
 </script>
